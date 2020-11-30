@@ -44,6 +44,14 @@
         ul li a:hover{
             border-bottom: 2px solid rgb(70, 189, 135);
         }
+        
+        /* Thinner line */
+        hr.header-line{
+            height: 1px;
+            border: none;
+            transform: scale(0.5);
+            background-color: rgb(44, 62, 80);
+        }
     </style>
 </head>
 <body>
@@ -51,7 +59,7 @@
         <h1 id="header">
             Open Source, Happy Hacking!
         </h1>
-        <hr>
+        <hr class="header-line">
         <ul>
             <li><a href="https://openhacking.github.io/vuepress-template/">VuePress Template</a>: A simple VuePress case template</li>
             <li><a href="https://github.com/openHacking/vuepress-plugin-qrcode">Vuepress Plugin Qrcode</a>: Display the current URL QR code for mobile devices to scan</li>
